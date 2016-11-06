@@ -1,0 +1,27 @@
+*{
+  /*border: 1px dashed black;*/
+  font-family: Helvitica, sans-serif;
+}
+
+#contenedor_nombre{
+  display: inline-block;
+  /*margin-left: 100px;*/
+  float: right;
+}
+
+#logo{
+  width: 100px;
+  display: inline-block;
+  float: left;
+}
+
+h1{
+  font-weight: 100;
+  font-size: 30px;
+  margin: 5px;
+}
+
+h2{
+  font-weight: 100;
+  font-siz: 15px;
+}
