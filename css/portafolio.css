@@ -18,10 +18,77 @@
 h1{
   font-weight: 100;
   font-size: 30px;
-  margin: 5px;
+  margin: 0px;
 }
 
 h2{
   font-weight: 100;
-  font-siz: 15px;
+  font-size: 15px;
+  margin: 0px;
+  text-align: right;
+}
+
+.cabecera{
+  border-bottom: 2px solid #AAA;
+  overflow: auto;
+}
+
+#container{
+  max-width: 720px;
+  margin: 0px auto;
+}
+
+#imagen_principal{
+  /*margin: 10px 0px;*/
+  width: 100%;
+  position: relative;
+  top: -100px;
+  /*height: 300px;*/
+}
+
+.contenedor_imagen{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  /*position: relative;*/
+  margin: 10px 0px;
+}
+
+#imagen_div{
+  background-image: url("../img/fontss_opt.jpg");
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: 0px -100px;
+
+  color: white;
+  /*font-size: 30px;*/
+  /*text-align: center;*/
+}
+
+#mascara{
+  background-color: rgba(255,0,0,.4);
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  line-height: 250px;
+}
+
+h3{
+  color: #999;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.project_container{
+  border: 1px solid black;
+
+  display: inline-block;
+
+  width: 33.33%;
+  height: 200px;
 }
